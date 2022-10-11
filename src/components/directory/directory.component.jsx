@@ -3,7 +3,7 @@ import "../directory/directory.styles.scss";
 
 const Directory = ({ categories }) => {
 	return (
-		<div className="directory-container">
+		<div className="directory-container mt-2">
 			{categories.map((category) => (
 				<CategoryItem category={category} key={category.id} />
 			))}
