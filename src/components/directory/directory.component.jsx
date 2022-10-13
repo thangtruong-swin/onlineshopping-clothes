@@ -1,4 +1,6 @@
-import CategoryItem from "../category-item/category-item.component";
+import CategoryItem from "../directory-item/directory-item.component";
+import { Routes, Route } from "react-router-dom";
+
 import "../directory/directory.styles.scss";
 
 const Directory = ({ categories }) => {
